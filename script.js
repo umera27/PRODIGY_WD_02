@@ -1,7 +1,7 @@
 const hour=document.getElementById('hour');
 const minute=document.getElementById('minute');
 const second=document.getElementById('second');
-const Mill=document.getElementById('mill');
+
 const start=document.getElementById('start');
 const reset=document.getElementById('reset');
 const stop=document.getElementById('stop');
@@ -13,11 +13,10 @@ let timer;
  start.addEventListener('click',()=>{
  if(timer) {
     clearInterval(timer); 
-    console.log("timer"+timer);
     
  }
     
- //  start.disabled="true";
+ 
    timer=setInterval(update,10);
    console.log(timer);
  })
@@ -33,28 +32,9 @@ let timer;
  })
  stop.addEventListener('click',()=>{
      clearInterval(timer);
-    // timer=null;
-     //start.disabled="false";
+    
  })
-/* 
- function update() {
-          sec++;
-          second.innerText=sec;
-          if(sec==60){
-             min++;
-             sec=0;
-             second.innerText=sec;
-             minute.innerText=min+":";
-       }else if(min==60){
-       
-             time++;
-             min=0;
-             minute.innerText=min+":";
-             hour.innerText=time+":";
-          } 
- }
- 
-*/
+
 function update() {
     mill += 10; 
 
