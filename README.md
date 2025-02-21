@@ -1,7 +1,7 @@
 # Stopwatch Project 
 
 ## Overview
-This project is a simple yet efficient stopwatch created to track elapsed time. It is designed to function in web browsers and can be easily integrated into various applications. The stopwatch includes basic functionalities such as start, stop, reset, and display of hours, minutes, seconds, and milliseconds.
+This project is a simple yet efficient stopwatch created to track elapsed time. It is designed to function in web browsers and can be easily integrated into various applications. The stopwatch includes basic functionalities such as start, stop, reset, and display of hours, minutes,and seconds.
 
 ## Technologies Used
 - HTML5
@@ -10,7 +10,7 @@ This project is a simple yet efficient stopwatch created to track elapsed time. 
 
 ## Features
 - Start, Stop, and Reset functionalities
-- Displays hours, minutes, seconds
+- Displays hours, minutes, and seconds
 - User-friendly interface
 - Responsive design for different screen sizes
 
@@ -31,6 +31,6 @@ This project is a simple yet efficient stopwatch created to track elapsed time. 
 ## Contact
    For inquiries or feedback, feel free to reach out:
    - **Email**: umeramasresha@gmail.com
-   - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/umera-masresha)
+   - **LinkedIn**: [Umera Masresha ](https://www.linkedin.com/in/umera-masresha)
 
    
