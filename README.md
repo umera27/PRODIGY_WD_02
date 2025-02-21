@@ -21,8 +21,6 @@ This project is a simple yet efficient stopwatch created to track elapsed time. 
    - Click the **Reset** button to reset the timer back to zero.
 
 
-## Contributing
-   If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes. 
 
 
 ## Acknowledgments
