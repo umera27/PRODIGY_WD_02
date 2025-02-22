@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    font-size: 55px;
+    font-family: 'Space Mono',monospace;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border: none;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    border: 1px solid red;
+    width: 550px;
+    height:550px;
+    border-radius: 1.5em;
+    background-color: rgba(128,128,128,0.5);    
+    margin: 0 auto;
+    
+  
+}
+.watch{
+    border: none;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    place-items:center;
+    overflow: hidden;
+    
+}
+.watch-diplay{
+    border: none;
+    height:70px;
+    width:450px;
+    margin-bottom: 1em;
+    
+    
+}
+.controller{
+    border: none;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 1em;
+}
+button{
+    padding: 1em 3em;
+    border-radius: .5em;    
+    align-items: center;
+    border: none;
+    font-size: 17px;
+    margin-right: .5em;
+    box-shadow: 1px 2px 3px whitesmoke;
+    color: white;
+    background-color: rgba(128,128,128,0.5);
+    font-family: 'Space Mono',monospace;
+}
+span{
+    color:white;
+    font-size: 65px;
+    border-left: 1px solid white;  
+    font-family: 'Space Mono',monospace;
+}
+span:first-child{
+    border-left: none;
+}
+.border
+{   margin: 1em;
+    border: 1px solid white; 
+}
+
+button:hover{
+   
+   background:linear-gradient(45deg,#ff000a,#000000e2,#ff000a);
+    color: white;
+    border: 1px solid white;
+}
+@media(max-width: 768px){
+  h1{
+      font-size: 35px;
+  }
+   .container{
+       width: 100%;
+       height: 100vh;
+       background-size: 100% 100%;
+   }
+   .box{
+       width: 310px;
+       height: 300px;   
+       overflow: hidden; 
+       z-index: 999;          
+   }
+   .watch{
+      width: 100%;
+      height: 150px;        
+      display: block;
+                   
+   }
+   .watch-display{
+       width: 100px;
+       height: 100px;       
+       margin-bottom: 0;
+   }
+   span{
+       font-size: 40px;
+   }
+   
+   .contoller
+   {
+       height: 70px;
+   }
+   button{
+       padding: 1em 1em;
+       font-size: 15px;
+      
+   }
+}     
+     
